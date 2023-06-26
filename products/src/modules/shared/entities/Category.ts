@@ -1,5 +1,5 @@
 export interface CategoryProps {
-  id: string;
+  id?: string;
   name: string;
   code: string;
 }
@@ -16,6 +16,6 @@ export class Category {
   }
 
   get id() {
-    return this.props.id || "";
+    return this.props.id || '';
   }
 }
