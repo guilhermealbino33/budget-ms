@@ -1,4 +1,4 @@
-import { prisma } from '../../../../crosscutting/infra/http/prisma';
+import { prisma } from '../../../../../prisma/prisma';
 import { Product, ProductProps } from '../../../shared/entities/Product';
 import { IProductsRepository } from '../IProductsRepository';
 
