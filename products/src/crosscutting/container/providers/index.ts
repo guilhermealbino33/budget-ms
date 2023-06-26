@@ -1,2 +1,1 @@
-import "./AMQPProvider";
-import "./Logging";
+import './Logging';
