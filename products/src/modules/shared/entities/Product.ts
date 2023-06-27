@@ -6,6 +6,8 @@ export interface ProductProps {
   code: string;
   categoryId: string;
   category?: Category;
+  createdAt?: Date;
+  updatedAt?: Date;
 }
 
 export class Product {
